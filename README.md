@@ -1,31 +1,31 @@
 ## Annotations
 
-@Entity   << Entidade do banco de dados`
+`@Entity`   << Entidade do banco de dados`
 
-@RestContoller << Usado para retornar JSON ou XML`
+`@RestContoller` << Usado para retornar JSON ou XML`
 
-@Controller <<  Usamos para retornar um `views`  normalmente um `HTML`
+`@Controller` <<  Usamos para retornar um `views`  normalmente um `HTML`
 
-@Autowired << Serve pro Spring fazer automaticamente  a injeção de dependência 
+`@Autowired` << Serve pro Spring fazer automaticamente  a injeção de dependência 
 
-@Injeção de dependências Exemplo com garçom:  
+Injeção de dependências Exemplo com garçom:  
 Sem injeção de dependência, o garçom tem a cozinha embutida, conhecendo detalhes específicos da preparação dos pratos. Com injeção de dependência, o garçom recebe a cozinha como uma peça externa, tornando-o mais flexível para lidar com diferentes métodos de preparo, promovendo uma melhor manutenção e teste.
 
-@RequestMapping: Especifica o mapeamento entre as solicitações HTTP e os métodos do controlador. Pode ser usado a nível de classe ou método.
+`@RequestMapping`: Especifica o mapeamento entre as solicitações HTTP e os métodos do controlador. Pode ser usado a nível de classe ou método.
 
-@PostMapping: Usada para mapear um método como manipulador de solicitações HTTP POST. Geralmente, é utilizado para criar ou processar dados enviados no corpo da solicitação. Exemplo:
+`@PostMapping` Usada para mapear um método como manipulador de solicitações HTTP POST. Geralmente, é utilizado para criar ou processar dados enviados no corpo da solicitação. Exemplo:
 
-@GetMapping : Especifica o mapeamento entre as solicitações HTTP e os métodos do controlador. Pode ser usado a nível de classe ou método.
+`@GetMapping`  Especifica o mapeamento entre as solicitações HTTP e os métodos do controlador. Pode ser usado a nível de classe ou método.
 
-@PutMapping : Especifica o mapeamento entre as solicitações HTTP e os métodos do controlador. Pode ser usado a nível de classe ou método.
+`@PutMapping`  Especifica o mapeamento entre as solicitações HTTP e os métodos do controlador. Pode ser usado a nível de classe ou método.
 
-@DeleteMapping : Especifica o mapeamento entre as solicitações HTTP e os métodos do controlador. Pode ser usado a nível de classe ou método.
+`@DeleteMapping`  Especifica o mapeamento entre as solicitações HTTP e os métodos do controlador. Pode ser usado a nível de classe ou método.
 
-@Id: Anotação usada em classes de entidade no contexto do Spring Data JPA. Indica que um campo específico dentro da classe representa a chave primária da entidade no banco de dados. Essa anotação é crucial para identificar exclusivamente as instâncias da entidade no banco de dados. 
+`@Id`  Anotação usada em classes de entidade no contexto do Spring Data JPA. Indica que um campo específico dentro da classe representa a chave primária da entidade no banco de dados. Essa anotação é crucial para identificar exclusivamente as instâncias da entidade no banco de dados. 
 
-@Value: Injeta valores de propriedades diretamente em campos.
+`@Value`  Injeta valores de propriedades diretamente em campos.
 
-@Service: Anotação usada para marcar uma classe de serviço no padrão de design Service.
+`@Service`  Anotação usada para marcar uma classe de serviço no padrão de design Service.
 
 ## Estrutura de um projeto Spring.
 - **src**
